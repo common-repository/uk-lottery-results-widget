@@ -1,0 +1,230 @@
+/*
+Lottery Magic.co.uk Results Widget CSS File
+*/
+
+/*
+CSS can be edited below as required to fit in with
+your Wordpress design.
+*/
+
+
+/*
+Main Div
+Depending on how your theme handles widgets, you might want
+to uncomment the background line.
+*/
+.lottery_magic_rw {
+/* background: #fff; */
+}
+
+/*
+Error div if can't open results feed
+*/
+.lottery_magic_rw_plugin_error {
+ float: left;
+ color: red;
+ font-weight: bold;
+ padding: 3px;
+}
+
+/*
+Lottery result balls
+*/
+.lottery_magic_rw_ball_row {
+width: 200px;
+height: 28px;
+overflow: hidden;
+background-postion: top left;
+background-repeat: no repeat;
+padding: 0px !important;
+margin: 3px !important;
+line-height: 1 !important;  
+}
+
+.lottery_magic_rw_ball_row_small {
+width: 147px;
+height: 21px;
+overflow: hidden;
+background-postion: top left;
+background-repeat: no repeat;
+padding: 0px !important;
+margin: 3px !important;
+line-height: 1 !important;
+}
+
+/*
+Main title - Latest xxx results
+*/
+.lottery_magic_rw_result_title {
+padding: 1px 0px 0px 4px !important;
+font-weight: bold;
+}
+
+.lottery_magic_rw_result_title_small {
+padding: 1px 0px 0px 4px !important;
+font-weight: bold;
+font-size: 90%;
+}
+
+
+/*
+Sub title - draw number and date
+*/
+.lottery_magic_rw_sub_title {
+padding: 1px 0px 0px 4px !important;
+}
+
+.lottery_magic_rw_sub_title_small {
+padding: 1px 0px 0px 4px !important;
+font-size: 90%;
+}
+
+/*
+Main Ball text box
+*/
+.lottery_magic_rw_ball_row  .bb {
+float: left;
+width: 27px;
+height: 22px;
+padding: 5px 1px 0px 0px !important;
+text-align: center;
+background: none;
+font-family: Arial;
+font-size: 16px;
+color: black;
+font-weight: bold;
+margin: 0px !important;
+line-height: 1 !important;
+}
+
+.lottery_magic_rw_ball_row_small .bb {
+float: left;
+width: 20px;
+height: 17px;
+padding: 4px 1px 0px 0px !important;
+text-align: center;
+background: none;
+font-family: Arial;
+font-size: 12px;
+color: black;
+font-weight: bold;
+margin: 0px !important;
+line-height: 1 !important;
+}
+
+/*
+Right aligned ball text box for bonus balls and Thunderball
+*/
+.lottery_magic_rw_ball_row .bb_right {
+float: right;
+width: 28px;
+height: 22px;
+padding: 5px 0px 0px 0px !important;
+text-align: center;
+background: none;
+font-family: Arial;
+font-size: 16px;
+color: black;
+font-weight: bold;
+margin: 0px !important;
+line-height: 1 !important;
+}
+
+.lottery_magic_rw_ball_row_small .bb_right {
+float: right;
+width: 19px;
+height: 17px;
+padding: 4px 0px 0px 0px !important;
+text-align: center;
+background: none;
+font-family: Arial;
+font-size: 12px;
+color: black;
+font-weight: bold;
+margin: 0px !important;
+line-height: 1 !important;
+}
+
+/*
+Euromillions Lucky Stars text box
+*/
+.lottery_magic_rw_ball_row .bb_star {
+float: right;
+width: 29px;
+height: 19px;
+padding: 9px 0px 0px 0px !important;
+text-align: center;
+background: none;
+font-family: Arial;
+font-size: 14px;
+color: black;
+font-weight: bold;
+margin: 0px !important;
+line-height: 1 !important;
+}
+
+.lottery_magic_rw_ball_row_small .bb_star {
+float: right;
+width: 20px;
+height: 16px;
+padding: 5px 0px 0px 0px !important;
+text-align: center;
+background: none;
+font-family: Arial;
+font-size: 11px;
+color: black;
+font-weight: bold;
+margin: 0px !important;
+line-height: 1 !important;
+}
+
+/*
+Info icon to open additional information rollover
+*/
+.lottery_magic_rw_info_icon {
+cursor: help;
+}
+
+/*
+Additional information rollover table styles
+*/
+table.lottery_magic_rw_table {
+width: 100%;
+border-top: 1px solid #82ab37;
+border-left: 1px solid #82ab37;
+border-collapse: collapse;
+text-align: left;
+font-size: 11px;
+}
+
+table.lottery_magic_rw_table td {
+padding: 2px 5px 2px 5px;
+border-bottom: 1px solid #82ab37;
+border-right: 1px solid #82ab37;
+}
+
+table.lottery_magic_rw_table td.heading {
+font-weight: bold;
+font-family: Arial;
+background: #c0fd51;
+color: #333;
+font-size: 12px;
+}
+
+/*
+Powered by link
+*/
+.lottery_magic_rw_powered_by {
+width: 100%;
+padding: 3px 0px 3px 0px !important;
+text-align: center;
+font-size: 90%;
+}
+
+.lottery_magic_rw_powered_by_off {
+width: 100%;
+padding: 3px 0px 3px 0px !important;
+text-align: center;
+font-size: 90%;
+display: none;
+}
